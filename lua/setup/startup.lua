@@ -5,6 +5,9 @@
 -- Colorizer
 require("colorizer").setup()
 
+-- Git
+require('git').setup()
+
 -- Git signs
 require("gitsigns").setup()
 

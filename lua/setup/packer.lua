@@ -16,6 +16,9 @@ return require('packer').startup(function(use)
   use 'tpope/vim-surround'
   use 'jiangmiao/auto-pairs'
 
+  -- git 
+  use ('dinhhuy258/git.nvim')
+
   -- language servers
   use("hrsh7th/cmp-buffer")
   use("hrsh7th/cmp-cmdline")
