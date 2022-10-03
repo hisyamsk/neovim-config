@@ -7,19 +7,20 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
 
   -- color scheme
-  use 'wbthomason/packer.nvim'
-  use 'folke/tokyonight.nvim'
-  use 'w0ng/vim-hybrid'
-  use 'drewtempelmeyer/palenight.vim'
+  use('wbthomason/packer.nvim')
+  use('folke/tokyonight.nvim')
+  use('w0ng/vim-hybrid')
+  use('drewtempelmeyer/palenight.vim')
+  use('joshdick/onedark.vim')
   
   -- pairs
-  use 'tpope/vim-surround'
-  use 'jiangmiao/auto-pairs'
+  use('tpope/vim-surround')
+  use('jiangmiao/auto-pairs')
 
   -- git 
-  use ('dinhhuy258/git.nvim')
+  use('dinhhuy258/git.nvim')
 
-  -- language servers
+  -- Completion
   use("hrsh7th/cmp-buffer")
   use("hrsh7th/cmp-cmdline")
   use("hrsh7th/cmp-nvim-lsp")
@@ -53,4 +54,7 @@ return require('packer').startup(function(use)
   use("akinsho/bufferline.nvim")
   use({ "nvim-neo-tree/neo-tree.nvim", branch = "v2.x" })
   use("nvim-lualine/lualine.nvim")
+
+  -- LaTeX compiler
+  use('lervag/vimtex')
 end)

@@ -22,6 +22,11 @@ lspconfig.vuels.setup({
   on_attach = no_format
 })
 
+-- LaTeX
+lspconfig.texlab.setup({
+  capabilities = caps,
+  on_attach = no_format
+})
 
 -- Emmet
 lspconfig.emmet_ls.setup({

@@ -169,6 +169,11 @@ _G.packer_plugins = {
     path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
+  ["onedark.vim"] = {
+    loaded = true,
+    path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/onedark.vim",
+    url = "https://github.com/joshdick/onedark.vim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -203,6 +208,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
+  },
+  vimtex = {
+    loaded = true,
+    path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/vimtex",
+    url = "https://github.com/lervag/vimtex"
   }
 }
 
