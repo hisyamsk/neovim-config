@@ -38,6 +38,9 @@ return require('packer').startup(function(use)
   -- Syntax parser
   use("nvim-treesitter/nvim-treesitter")
 
+  -- Comment
+  use("terrortylor/nvim-comment")
+
   -- Utils
   use("norcalli/nvim-colorizer.lua")
   use("lewis6991/gitsigns.nvim")
