@@ -16,3 +16,6 @@ require("bufferline").setup()
 
 -- Lualine
 require("lualine").setup()
+
+-- Indent Line 
+require('indent_blankline').setup()

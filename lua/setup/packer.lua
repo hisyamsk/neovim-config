@@ -17,6 +17,9 @@ return require('packer').startup(function(use)
   use('tpope/vim-surround')
   use('jiangmiao/auto-pairs')
 
+  -- indent line
+  use('lukas-reineke/indent-blankline.nvim')
+
   -- git 
   use('dinhhuy258/git.nvim')
 

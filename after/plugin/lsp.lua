@@ -22,6 +22,11 @@ lspconfig.vuels.setup({
   on_attach = no_format
 })
 
+-- CSS 
+lspconfig.cssls.setup {
+  capabilities = capabilities,
+  on_attach = no_format
+}
 -- LaTeX
 lspconfig.texlab.setup({
   capabilities = caps,
