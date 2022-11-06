@@ -32,8 +32,7 @@ require("nvim-treesitter.configs").setup({
   },
   highlight = { 
     enable = true,
-
-    disable = { "latex" }
+    disable = { "latex", "html" }
   },
   indent = { enable = true },
   autotag = {
