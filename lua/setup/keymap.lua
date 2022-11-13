@@ -15,3 +15,6 @@ map("n", "<C-s>", ':lua require("telescope.builtin").live_grep()<CR>', opts)
 map("n", "<C-Right>", ":BufferLineCycleNext<CR>", opts)
 map("n", "<C-Left>", ":BufferLineCyclePrev<CR>", opts)
 map("n", "<C-x>", ":BufferLinePickClose<CR>", opts)
+
+-- Prettier
+map("n", "<C-f>", ":Prettier<CR>", opts)
