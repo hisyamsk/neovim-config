@@ -12,6 +12,12 @@ return require('packer').startup(function(use)
   use('w0ng/vim-hybrid')
   use('drewtempelmeyer/palenight.vim')
   use('joshdick/onedark.vim')
+  use('sainnhe/sonokai')
+  use('ackyshake/Spacegray.vim')
+  use('dracula/vim')
+
+  -- terminal wrapper
+  use('akinsho/toggleterm.nvim')
   
   -- pairs
   use('tpope/vim-surround')
