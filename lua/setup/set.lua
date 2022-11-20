@@ -2,7 +2,7 @@ vim.opt.nu = true
 vim.opt.relativenumber = true
 
 vim.opt.termguicolors = true
-vim.opt.clipboard = "unnamedplus"
+vim.opt.clipboard = ""
 vim.opt.swapfile = false
 vim.opt.title = true
 vim.opt.tabstop = 2
