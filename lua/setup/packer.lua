@@ -15,6 +15,7 @@ return require('packer').startup(function(use)
   use('sainnhe/sonokai')
   use('ackyshake/Spacegray.vim')
   use('dracula/vim')
+  use('sainnhe/edge')
 
   -- terminal wrapper
   use('akinsho/toggleterm.nvim')
