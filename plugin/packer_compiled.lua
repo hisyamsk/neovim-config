@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["Spacegray.vim"] = {
+    loaded = true,
+    path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/Spacegray.vim",
+    url = "https://github.com/ackyshake/Spacegray.vim"
+  },
   ["auto-pairs"] = {
     loaded = true,
     path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/auto-pairs",
@@ -114,6 +119,11 @@ _G.packer_plugins = {
     path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  edge = {
+    loaded = true,
+    path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/edge",
+    url = "https://github.com/sainnhe/edge"
+  },
   ["git.nvim"] = {
     loaded = true,
     path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/git.nvim",
@@ -123,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,
@@ -184,10 +199,10 @@ _G.packer_plugins = {
     path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
-  ["onedark.vim"] = {
+  ["onedarkpro.nvim"] = {
     loaded = true,
-    path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/onedark.vim",
-    url = "https://github.com/joshdick/onedark.vim"
+    path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/onedarkpro.nvim",
+    url = "https://github.com/olimorris/onedarkpro.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -209,25 +224,55 @@ _G.packer_plugins = {
     path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/prettier.nvim",
     url = "https://github.com/MunifTanjim/prettier.nvim"
   },
+  sonokai = {
+    loaded = true,
+    path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/sainnhe/sonokai"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["toggleterm.nvim"] = {
+    loaded = true,
+    path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
   },
   ["tokyonight.nvim"] = {
     loaded = true,
     path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
+  vim = {
+    loaded = true,
+    path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/vim",
+    url = "https://github.com/dracula/vim"
+  },
+  ["vim-code-dark"] = {
+    loaded = true,
+    path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/vim-code-dark",
+    url = "https://github.com/tomasiser/vim-code-dark"
+  },
   ["vim-hybrid"] = {
     loaded = true,
     path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/vim-hybrid",
     url = "https://github.com/w0ng/vim-hybrid"
   },
+  ["vim-monokai-pro"] = {
+    loaded = true,
+    path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/vim-monokai-pro",
+    url = "https://github.com/phanviet/vim-monokai-pro"
+  },
   ["vim-surround"] = {
     loaded = true,
     path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
+  },
+  ["vim-vscode-theme"] = {
+    loaded = true,
+    path = "/home/hisyam/.local/share/nvim/site/pack/packer/start/vim-vscode-theme",
+    url = "https://github.com/dunstontc/vim-vscode-theme"
   },
   vimtex = {
     loaded = true,

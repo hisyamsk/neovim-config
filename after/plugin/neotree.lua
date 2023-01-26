@@ -12,5 +12,17 @@ require("neo-tree").setup({
     },
   },
   window = { width = 30 },
+  default_component_configs = {
+    git_status = {
+      symbols = {
+        -- Status type
+        untracked = "",
+        ignored   = "",
+        unstaged  = "",
+        staged    = "",
+        conflict  = "",
+      }
+    },
+  }
 })
 

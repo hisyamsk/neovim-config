@@ -5,7 +5,7 @@ local lspconfig = require("lspconfig")
 local caps = vim.lsp.protocol.make_client_capabilities()
 
 local no_format = function(client, bufnr)
-  client.resolved_capabilities.document_formatting = false
+  client.server_capabilities.documentFormattingProvider= false
 
   -- Enable completion triggered by <c-x><c-o>
   vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
