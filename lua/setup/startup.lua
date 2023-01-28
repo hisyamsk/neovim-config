@@ -12,7 +12,11 @@ require('git').setup()
 require("gitsigns").setup()
 
 -- Bufferline
-require("bufferline").setup()
+require("bufferline").setup({
+  options = {
+    diagnostics = "nvim_lsp",
+  }
+})
 
 -- Lualine
 require("lualine").setup()

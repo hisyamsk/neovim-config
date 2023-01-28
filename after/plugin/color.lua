@@ -12,7 +12,7 @@ vim.g.gruvbox_material_background = 'hard'
 
 vim.cmd([[
   syntax on
-  colorscheme kanagawa
+  colorscheme tokyonight-night
 ]])
 
 
